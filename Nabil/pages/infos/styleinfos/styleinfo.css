@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.0.13/css/all.css');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #D6859E;
+    display: flex;
+    justify-content: space-around;
+    white-space: pre-line;
+    align-items: center; 
+    flex-direction: column; 
+}
+/* Logo Information SVG */
+
+.logo {
+    padding: 5%;
+    
+}
+
+hr {
+    
+    width: 85%;
+    margin: auto 0;
+}
+
+/*  TEXTES HORAIRES */
+
+
+.textes {
+    color: white;
+    font-family: 'Nova Square', cursive;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+
+/* LOGO RESEAU SOCIAUX */
+
+
+.coller {
+    display: flex;
+    
+     text-align: center;
+ }
+    
+.coller ul {
+ display: inline-flex;
+ margin: 0;
+ padding: 0;
+ list-style: none;
+}
+
+.coller li {
+    margin: 2rem;
+    list-style: none;
+    font-size: 24px;
+    transition: 0.5s;
+ }
+
+.coller ul li a {
+      width: 60px;
+    padding: 16px 0;
+    display: block;
+    color: #fff;
+}
+
+/* Animation */
+
+ul li:nth-child(1){
+    background: #e9dfdf73;
+}
+ul li:nth-child(2){
+    background: #e9dfdf73;
+}
+
+ul li:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 10px rgba(255, 255, 255, 0.2);
+}
+
+
+/* GOOGLE MAPS IFRAME */
+
+iframe{
+   margin-top: 2rem;
+   margin-bottom: 0.5rem;
+
+}
+
+/* Croix CLOSE */ 
+
+.close {
+    position: absolute;
+    right: 32px;
+    top: 15px;
+    width: 20px;
+    height: 20px;
+    opacity: 0.80;
+  }
+  .close:hover {
+    opacity: 1;
+  }
+  .close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: rgb(255, 255, 255);
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+  
