@@ -1,0 +1,216 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.bien {
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   background-color: rgba(125, 183, 163, 1);
+   
+}
+.bienetre {
+    width: 70%;
+    height: 50%;
+    border-radius: 20%;
+    background: white;
+    left: auto;
+    right: auto;
+    top: 10%;
+    border:  0.3rem solid;
+    align-items: center;
+}
+.imgmjc {
+    display: flex;
+    max-width: 400px;
+    max-height: 400px;
+    width: 37%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.music {
+    display: flex;
+    max-width: 400px;
+    max-height: 400px;
+    width: 68%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.enfant {
+    display: flex;
+    max-width: 400px;
+    max-height: 400px;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sport {
+    display: flex;
+    max-width: 400px;
+    max-height: 400px;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ado {
+    display: flex;
+    max-width: 400px;
+    max-height: 400px;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.social {
+    display: flex;
+    max-width: 400px;
+    max-height: 400px;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.danse {
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(201, 51, 100, 1);
+}
+.dansemjc {
+    width: 70%;
+    height: 50%;
+    border-radius: 20%;
+    background: white;
+    left: auto;
+    right: auto;
+    top: 10%;
+    border:  0.3rem solid;
+    align-items: center;
+    
+}
+.forme {
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   background-color:rgba(60, 150, 62, 1);
+}
+.formemjc {
+    width: 70%;
+    height: 50%;
+    border-radius: 20%;
+    background: white;
+    left: auto;
+    right: auto;
+    top: 10%;
+    border:  0.3rem solid;
+    align-items: center;
+}
+.musique {
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   background-color: rgba(223, 155, 25, 1);
+  
+}
+.musiquemjc {
+    width: 70%;
+    height: 50%;
+    border-radius: 20%;
+    background: white;
+    left: auto;
+    right: auto;
+    top: 10%;
+    border:  0.3rem solid;
+    align-items: center;
+}
+.lien {
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgba(54, 150, 161, 1);
+  
+}
+.lienmjc {
+    width: 70%;
+    height: 50%;
+    border-radius: 20%;
+    background: white;
+    left: auto;
+    right: auto;
+    top: 10%;
+    border:  0.3rem solid;
+    align-items: center;
+}
+.alsh {
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   background-color:rgba(103, 44, 42, 1);
+   
+}
+.alshmjc {
+    width: 70%;
+    height: 50%;
+    border-radius: 20%;
+    background: white;
+    left: auto;
+    right: auto;
+    top: 10%;
+    border:  0.3rem solid;
+    align-items: center;
+}
+.jeune {
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   background-color: rgba(214, 133, 158, 1);
+
+}
+.jeunemjc {
+    width: 70%;
+    height: 50%;
+    border-radius: 20%;
+    background: white;
+    left: auto;
+    right: auto;
+    top: 10%;
+    border:  0.3rem solid;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top : 0;
+    font-size: 2em;
+    font-family: 'Lato', sans-serif;
+}
+h2 {
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: lighter;
+    padding: 5%;
+    margin: 5%;
+    font-family: 'Lato', sans-serif;
+
+}
