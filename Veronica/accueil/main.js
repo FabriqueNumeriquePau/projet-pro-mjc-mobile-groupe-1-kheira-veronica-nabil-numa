@@ -4,12 +4,12 @@ let cible = document.querySelector('.page_evenements');
 let rick = document.querySelector('.testooo');
 
 bouton.addEventListener('click', function() {
-    smooth_scroll('.testooo', 9000);
+    smooth_scroll('.testooo', 8000);
 });
 
-rick.addEventListener('click', function() {
-    smooth_scroll('.page_evenements', 3000);
-})
+// rick.addEventListener('click', function() {
+//     smooth_scroll('.page_evenements', 3000);
+// })
 
 // Clic sur fleche execute la function
 /* bouton.addEventListener('click', function() {
