@@ -57,6 +57,9 @@ hr {
 }
 
 
+/* CONTAINER */
+
+
 .nom {
     position: absolute;
     top: 27%;
@@ -64,15 +67,20 @@ hr {
     margin-top: 30px;
 }
 
+
+/*  PRENOM */
+
+
 .titre {
     text-align: center;
     color: #C93364;
     font-weight: 400;
     font-size: 18px;
-    
+
 }
 
 .edit.icon {
+    margin-top: 2%;
     color: black;
     position: absolute;
     left: 90%;
@@ -81,10 +89,10 @@ hr {
     border-radius: 1px;
     border: solid 1px currentColor;
     -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
-  }
-  
-  .edit.icon:before {
+    transform: rotate(-45deg);
+}
+
+.edit.icon:before {
     content: '';
     position: absolute;
     left: -12px;
@@ -95,30 +103,176 @@ hr {
     border-right: solid 5px currentColor;
     border-top: solid 2px transparent;
     border-bottom: solid 2px transparent;
-  }
-  
-  
-
+}
 
 
 .txt {
     color: black;
     font-weight: 400;
     font-size: 20px;
+    margin: 2%;
+}
+
+.un {
+    width: 200px;
+    margin-top: 8%;
+    border: 1px solid rgba(141, 141, 141, 0.5);
+}
+
+
+/*  NOM DE FAMILLE  */
+
+
+.titre2 {
+    text-align: center;
+    color: #C93364;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.edit.icon2 {
+    margin-top: 2%;
+    color: black;
+    position: absolute;
+    left: 90%;
+    width: 20px;
+    height: 5px;
+    border-radius: 1px;
+    border: solid 1px currentColor;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.edit.icon2:before {
+    content: '';
+    position: absolute;
+    left: -12px;
+    top: -1px;
+    width: 0px;
+    height: 0px;
+    border-left: solid 5px transparent;
+    border-right: solid 5px currentColor;
+    border-top: solid 2px transparent;
+    border-bottom: solid 2px transparent;
+}
+
+
+.txt2 {
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 2%;
+}
+
+.deux {
+    width: 200px;
+    margin-top: 8%;
+    border: 1px solid rgba(141, 141, 141, 0.5);
+}
+
+
+/*  Date de Naissance */
+
+.titre3 {
+    text-align: center;
+    color: #C93364;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.edit.icon3 {
+    margin-top: 2%;
+    color: black;
+    position: absolute;
+    left: 90%;
+    width: 20px;
+    height: 5px;
+    border-radius: 1px;
+    border: solid 1px currentColor;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.edit.icon3:before {
+    content: '';
+    position: absolute;
+    left: -12px;
+    top: -1px;
+    width: 0px;
+    height: 0px;
+    border-left: solid 5px transparent;
+    border-right: solid 5px currentColor;
+    border-top: solid 2px transparent;
+    border-bottom: solid 2px transparent;
+}
+
+
+.txt3 {
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 2%;
+}
+
+.trois {
+    width: 200px;
+    margin-top: 8%;
+    border: 1px solid rgba(141, 141, 141, 0.5);
 }
 
 
 
+/*  RENSEIGNEMENT SANITAIRE */
+
+.titre4 {
+    text-align: center;
+    color: #C93364;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.edit.icon4 {
+    margin-top: 2%;
+    color: black;
+    position: absolute;
+    left: 90%;
+    width: 20px;
+    height: 5px;
+    border-radius: 1px;
+    border: solid 1px currentColor;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.edit.icon4:before {
+    content: '';
+    position: absolute;
+    left: -12px;
+    top: -1px;
+    width: 0px;
+    height: 0px;
+    border-left: solid 5px transparent;
+    border-right: solid 5px currentColor;
+    border-top: solid 2px transparent;
+    border-bottom: solid 2px transparent;
+}
 
 
+.txt4 {
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 2%;
+}
 
-
-
-
-
-
-
-
+.quatre {
+    width: 200px;
+    margin-top: 8%;
+    border: 1px solid rgba(141, 141, 141, 0.5);
+}
 
 
 
