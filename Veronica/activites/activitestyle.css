@@ -85,7 +85,6 @@ body {
   position: fixed;
   width: 100%;
   background-color: #D6859E;
-  color: white;
   overflow: hidden;
   z-index: 101;
 }
