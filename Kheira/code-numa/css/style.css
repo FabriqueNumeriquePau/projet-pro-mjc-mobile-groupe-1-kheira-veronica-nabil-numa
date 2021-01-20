@@ -238,11 +238,14 @@ nav ul li:hover {
   width: 100%;
   padding: 1vh 3.5vw 1vh;
   margin: 10px 0;
-  font-size: 4.2vmin;
+  font-size: 2em;
   background: none;
   border: none;
-  color: white;
+  color: rgba(0, 0, 0, 0.67);
   background-color: #DF9B19;
+  border-radius: 7px;
+  font-family: 'Lato', sans-serif;
+  
 }
 .page_evenements .barre_menu .menu_deroulant button:hover {
   color: grey;
@@ -295,10 +298,19 @@ nav ul li:hover {
   color: white;
 }
 .page_evenements .barre_menu .recherche {
-  width: 40vw;
-  height: 5.5vh;
+  width: 60vw;
+  height: 4.5vh;
   background-color: #DF9B19;
-  border-radius: 12px;
+  border-radius: 8px ;
+  color: rgba(0, 0, 0, 0.67);
+  font-family: 'Lato', sans-serif;
+  font-size: 0.8em;
+  font-style: italic;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  
 }
 .page_evenements .header_article {
   display: flex;
@@ -327,20 +339,24 @@ nav ul li:hover {
   width: 85%;
   height: 20vh;
   max-height: 15vmax;
-  background-color: orchid;
+  
 }
 .page_evenements .article_mjc .txt_article {
-  background-color: grey;
+
   width: 100%;
   height: 90%;
-  font-size: 2.5vmax;
-  text-align: justify;
+  font-size: 1.5vmax;
+  font-family: 'Lato', sans-serif;
+  white-space: pre-line;
 }
 .page_evenements .article_mjc .btn_article {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  font-size: 2.5vmax;
+  font-size: 1.7vmax;
+  color: blue;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
 }
 .page_evenements .btn_plus {
   display: flex;
