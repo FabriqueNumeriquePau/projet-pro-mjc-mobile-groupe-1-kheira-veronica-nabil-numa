@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: #D6859E;
+    font-family: 'Nova Square', cursive;
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+hr {
+    width: 100px;
+    height: 0px;
+    left: 130px;
+    top: 107px;
+    border: 1px solid #6B5555;
+}
+
+/* Fond blanc */
+
+.fond {
+    display: flex;
+    justify-content: center;
+    background: white;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 3%;
+    width: 90vw;
+    height: 350vh;
+}
+
+
+/* Photo de profil */
+
+.profilpicture {
+    position: relative;
+    margin-top: 3%;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    box-shadow: black 1px 1px 1px 1px;
+}
+
+
+/* CONTAINER */
+
+
+.nom {
+    position: absolute;
+    top: 27%;
+    width: 90vw;
+    margin-top: 30px;
+}
+
+
+/*  Infos */
+
+
+.titre {
+    text-align: center;
+    color: #C93364;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.edit.icon {
+    margin-top: 2%;
+    color: black;
+    position: absolute;
+    left: 90%;
+    width: 20px;
+    height: 5px;
+    border-radius: 1px;
+    border: solid 1px currentColor;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.edit.icon:before {
+    content: '';
+    position: absolute;
+    left: -12px;
+    top: -1px;
+    width: 0px;
+    height: 0px;
+    border-left: solid 5px transparent;
+    border-right: solid 5px currentColor;
+    border-top: solid 2px transparent;
+    border-bottom: solid 2px transparent;
+}
+
+
+.txt {
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 2%;
+}
+
+.un {
+    width: 200px;
+    margin-top: 8%;
+    border: 1px solid rgba(141, 141, 141, 0.5);
+}
+
+
+.grostitre {
+    text-align: center;
+    color: #707070;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.responsable {
+    width: 272px;
+    border-color: #707070;
+}
+
+/* ****** Bouton Switch ON / OFF ****** */
+
+
+/* Le switch - Mettre le rond autour du slider */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-left: 36vw;
+}
+
+@media all and (min-width: 380px) {
+
+    .switch {
+        margin-left: 40vw;
+    }
+}
+
+
+/* Cacher le checkbox du HTML */
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* Le slider */
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Slider rond */
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/* Crédits */
+
+.credits {
+    
+}
+
+
+
+
+
+
+/* Croix CLOSE */
+
+.close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 20px;
+    height: 20px;
+    opacity: 0.80;
+}
+
+.close:hover {
+    opacity: 1;
+}
+
+.close:before,
+.close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: black;
+}
+
+.close:before {
+    transform: rotate(45deg);
+}
+
+.close:after {
+    transform: rotate(-45deg);
+}

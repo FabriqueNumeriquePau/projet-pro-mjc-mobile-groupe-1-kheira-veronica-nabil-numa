@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.0.13/css/all.css');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 5%;
+    font-family: 'Roboto', sans-serif
+}
+
+.box1 {
+
+    margin: auto;
+    width: 18.75rem;
+    height: 2.75rem;
+    background: rgb(185, 185, 185);
+    border-radius: 1.25rem;
+}
+
+.numero {
+    display: flex;
+    justify-content: center;
+    color: #D6859E;
+}
+
+.fas {
+    position: relative;
+    right: 4rem;
+    transform: rotate(90deg);
+    color: #D6859E;
+    opacity: 0.85;
+}
+
+.box2 {
+
+    margin: auto;
+    width: 18.75rem;
+    height: 2.75rem;
+    background: black;
+    border-radius: 1.25rem;
+    margin-top: 3vh;
+}
+
+.annuler {
+    letter-spacing: 0.1875rem;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+/* Bouton CLOSE croix */
+
+.close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 20px;
+    height: 20px;
+    opacity: 0.80;
+}
+
+.close:hover {
+    opacity: 1;
+}
+
+.close:before,
+.close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #D6859E;
+}
+
+.close:before {
+    transform: rotate(45deg);
+}
+
+.close:after {
+    transform: rotate(-45deg);
+}
