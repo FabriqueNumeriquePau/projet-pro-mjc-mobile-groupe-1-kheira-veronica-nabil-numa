@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+}
+.titre { 
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  background-color:rgba(125, 183, 163, 1) ;
+  margin-top: 35px;
+  
+}
+h1 {
+  text-align: center;
+  font-size: 1.1em;
+  font-family: 'Lato', sans-serif;
+}
+.job {
+  position: absolute;
+  width: 37%;
+  height: 23%;
+  top: 15%;
+  border-radius: 0; 
+  max-width: 200px;
+}
+@media screen and (max-width: 400px) {
+  body {
+      width: 100%;
+  }
+}
+.bonjour {
+  position: absolute;
+  white-space: pre-line;
+  left: 50%;
+  top: 14%;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.7em;
+}
+.para {
+  position: relative;
+  height: 170px;
+  background-color:rgba(125, 183, 163, 1) ;
+  top: 320px;
+
+}
+.texte {
+  position: absolute;
+  white-space: pre-line;
+  top: 39%;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.7em;
+  padding: 5px;
+  
+}
+hr {
+  position: relative;
+  top: 330px;
+  height: 1px;
+  border: none;
+  background-color: rgba(201, 51, 100, 1);
+}
+
+.parution {
+  position: relative;
+  top: 330px;
+  font-size: 0.6em;
+  text-align: center;
+}
+.jaune {
+  position: relative;
+  height: 100px;
+  background-color:rgba(223, 155, 25, 1);
+  top: 330px;
+  font-size: 0.7em;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+.reseaux {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.facebook {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  display: inline-block;
+  margin: auto;
+  width: 30px;
+  height: 30px;
+  top: 260px;
+}
+.twitter {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  display: inline-block;
+  margin: auto;
+  width: 30px;
+  height: 30px;
+  top: 260px;
+}
+.linkedin {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  display: inline-block;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  top: 260px;
+}
+.mail {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  display: inline-block;
+  margin: auto;
+  width: 30px;
+  height: 30px;
+  top: 260px;
+}
+
+h2 {
+  position: relative;
+  top: 280px;
+  font-size: 0.8em;
+  font-family: 'Lato', sans-serif;
+}
+.barre {
+  position: relative;
+  top: 272px;
+  height: 1px;
+  border: none;
+  background-color: rgba(201, 51, 100, 1);
+}
+.images {
+  position: relative;
+  display: flex;
+  top: 300px;
+}
+
+.image {
+  margin: 0;
+  flex: 1;
+}
+
+.image + .image {
+  margin-left: 10px;
+}
+
+.image-item {
+  width: 85%;
+  height: 50%;
+  vertical-align: top;
+  margin-left: 12px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(220,220,220);
+}
+
+.image-description {
+  position: relative;
+  margin-top: 10px;
+  font-family: 'Lato', sans-serif;
+  white-space: pre-line;
+  font-size: 0.7em;
+  left: 16px;
+ 
+}
+footer {
+  position:absolute;
+  margin: 0;
+  padding: 0;
+  width:100%;
+  height:30px;
+  background-color: rgba(223, 155, 25, 1) ;
+  top: 890px;
+}
+.bas {
+  margin-top: 10px;
+  font-size: 0.6em;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
