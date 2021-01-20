@@ -41,7 +41,7 @@ hr {
     margin: auto;
     margin-top: 3%;
     width: 90vw;
-    height: 100vh;
+    height: 350vh;
 }
 
 
@@ -68,7 +68,7 @@ hr {
 }
 
 
-/*  PRENOM */
+/*  Infos */
 
 
 .titre {
@@ -76,7 +76,6 @@ hr {
     color: #C93364;
     font-weight: 400;
     font-size: 18px;
-
 }
 
 .edit.icon {
@@ -120,159 +119,104 @@ hr {
 }
 
 
-/*  NOM DE FAMILLE  */
-
-
-.titre2 {
+.grostitre {
     text-align: center;
-    color: #C93364;
+    color: #707070;
     font-weight: 400;
-    font-size: 18px;
-
+    font-size: 24px;
 }
 
-.edit.icon2 {
-    margin-top: 2%;
-    color: black;
+.responsable {
+    width: 272px;
+    border-color: #707070;
+}
+
+/* ****** Bouton Switch ON / OFF ****** */
+
+
+/* Le switch - Mettre le rond autour du slider */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-left: 36vw;
+}
+
+@media all and (min-width: 380px) {
+
+    .switch {
+        margin-left: 40vw;
+    }
+}
+
+
+/* Cacher le checkbox du HTML */
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* Le slider */
+
+.slider {
     position: absolute;
-    left: 90%;
-    width: 20px;
-    height: 5px;
-    border-radius: 1px;
-    border: solid 1px currentColor;
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 
-.edit.icon2:before {
-    content: '';
+.slider:before {
     position: absolute;
-    left: -12px;
-    top: -1px;
-    width: 0px;
-    height: 0px;
-    border-left: solid 5px transparent;
-    border-right: solid 5px currentColor;
-    border-top: solid 2px transparent;
-    border-bottom: solid 2px transparent;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Slider rond */
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/* Crédits */
+
+.credits {
+    
 }
 
 
-.txt2 {
-    color: black;
-    font-weight: 400;
-    font-size: 20px;
-    margin: 2%;
-}
-
-.deux {
-    width: 200px;
-    margin-top: 8%;
-    border: 1px solid rgba(141, 141, 141, 0.5);
-}
-
-
-/*  Date de Naissance */
-
-.titre3 {
-    text-align: center;
-    color: #C93364;
-    font-weight: 400;
-    font-size: 18px;
-
-}
-
-.edit.icon3 {
-    margin-top: 2%;
-    color: black;
-    position: absolute;
-    left: 90%;
-    width: 20px;
-    height: 5px;
-    border-radius: 1px;
-    border: solid 1px currentColor;
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-}
-
-.edit.icon3:before {
-    content: '';
-    position: absolute;
-    left: -12px;
-    top: -1px;
-    width: 0px;
-    height: 0px;
-    border-left: solid 5px transparent;
-    border-right: solid 5px currentColor;
-    border-top: solid 2px transparent;
-    border-bottom: solid 2px transparent;
-}
-
-
-.txt3 {
-    color: black;
-    font-weight: 400;
-    font-size: 20px;
-    margin: 2%;
-}
-
-.trois {
-    width: 200px;
-    margin-top: 8%;
-    border: 1px solid rgba(141, 141, 141, 0.5);
-}
-
-
-
-/*  RENSEIGNEMENT SANITAIRE */
-
-.titre4 {
-    text-align: center;
-    color: #C93364;
-    font-weight: 400;
-    font-size: 18px;
-
-}
-
-.edit.icon4 {
-    margin-top: 2%;
-    color: black;
-    position: absolute;
-    left: 90%;
-    width: 20px;
-    height: 5px;
-    border-radius: 1px;
-    border: solid 1px currentColor;
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-}
-
-.edit.icon4:before {
-    content: '';
-    position: absolute;
-    left: -12px;
-    top: -1px;
-    width: 0px;
-    height: 0px;
-    border-left: solid 5px transparent;
-    border-right: solid 5px currentColor;
-    border-top: solid 2px transparent;
-    border-bottom: solid 2px transparent;
-}
-
-
-.txt4 {
-    color: black;
-    font-weight: 400;
-    font-size: 20px;
-    margin: 2%;
-}
-
-.quatre {
-    width: 200px;
-    margin-top: 8%;
-    border: 1px solid rgba(141, 141, 141, 0.5);
-}
 
 
 
