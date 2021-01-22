@@ -1,0 +1,178 @@
+ body {
+    background-color: rgba(125, 183, 163, 1);
+   
+}
+h1 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+ .catégories1 {
+    display: flex;
+    width: 210px;
+    height: 85px;
+    left: 116px;
+    background: #FFFFFF;
+    border: 0.3px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    font-family: 'Lato', sans-serif;
+    border-left-width: 10px;
+    border-left-style: solid;
+    border-left-color:rgba(60, 150, 62, 1);
+    margin: 0 auto;  
+  }
+  .inscrit {
+    position: absolute;
+    width: 48px;
+    height: 15px;
+    left: 135px;
+    background: #3C963E;
+    border-radius: 3px 3px 0px 0px;
+    top: 67px;
+    font-size: 0.6em;
+    text-align: center;
+    color: white;
+    font-family: 'Lato', sans-serif;   
+  }
+  .inscrit1 {
+    position: absolute;
+    width: 48px;
+    height: 15px;
+    left: 73px;
+    background: #3C963E;
+    border-radius: 3px 3px 0px 0px;
+    bottom: 85px;
+    font-size: 0.6em;
+    text-align: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+  }
+  .inscrit2 {
+    position: absolute;
+    width: 48px;
+    height: 15px;
+    left: 73px;
+    background: #3C963E;
+    border-radius: 3px 3px 0px 0px;
+    bottom: 80px;
+    font-size: 0.6em;
+    text-align: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+  }
+  .inscrit3 {
+    position: absolute;
+    width: 48px;
+    height: 15px;
+    left: 73px;
+    background: #3C963E;
+    border-radius: 3px 3px 0px 0px;
+    bottom: 84px;
+    font-size: 0.6em;
+    text-align: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+  }
+  h2 {
+      font-size: 1.1em;
+      margin: 8px;
+      font-family: 'Lato', sans-serif;
+  }
+ h3 {
+     position: absolute;
+     font-size: 0.8em;
+     margin-top: 60px;
+     margin-left: 10px;
+     font-family: 'Lato', sans-serif;
+ }
+ h4 {
+     font-size: 0.8em;
+     margin-top: 58px;
+     font-family: 'Lato', sans-serif;
+ }
+#horloge {
+    color: rgba(138, 88, 45, 1);
+    margin-top: 55px;
+}
+.horloge1 {
+    position: absolute;
+    right: 50px;
+}
+.heure {
+    position: absolute;
+    margin-left: 160px;
+    font-family: 'Lato', sans-serif;
+}
+p {
+    position: absolute;
+    color: white;
+    margin-top: 80px;
+    font-size: 0.9em;
+    text-align: center;
+    white-space: pre-line;
+    margin-left: 30px;
+    top: 10px;
+    font-family: 'Lato', sans-serif;
+} 
+#attention {
+    position: absolute;
+    color: white;
+    margin-top: 100px;
+    margin-right: 150px;
+}
+  .catégories2 {
+    position: relative;
+    display: flex;
+    width: 210px;
+    height: 85px;
+    background: #FFFFFF;
+    border: 0.3px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    font-family: 'Lato', sans-serif;
+    border-left-width: 10px;
+    border-left-style: solid;
+    border-left-color:rgba(60, 150, 62, 1);  
+    top: 40px;
+    margin: 0 auto;
+  }
+  .catégories3 {
+    position: relative;
+    display: flex;
+    width: 210px;
+    height: 80px;
+    background: #FFFFFF;
+    border: 0.3px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    font-family: 'Lato', sans-serif;
+    border-left-width: 10px;
+    border-left-style: solid;
+    border-left-color:rgba(255, 107, 0, 1);  
+    top: 90px;
+    margin: 0 auto;
+    border-bottom-width: 55px;
+    border-bottom-style: solid;
+    border-bottom-color:rgba(225, 107, 0, 1);
+  }
+    
+  .catégories4 {
+    position: relative;
+    display: flex;
+    width: 210px;
+    height: 85px;
+    background: #FFFFFF;
+    border: 0.3px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    font-family: 'Lato', sans-serif;
+    border-left-width: 10px;
+    border-left-style: solid;
+    border-left-color:rgba(60, 150, 62, 1);  
+     top: 140px;
+    margin: 0 auto;
+
+
+}
+   

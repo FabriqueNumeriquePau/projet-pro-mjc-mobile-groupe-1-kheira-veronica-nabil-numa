@@ -193,6 +193,15 @@ nav ul li:hover {
   background-color: #7DB7A3;
 
 }
+.page_evenements .case1  .texte {
+  position: relative;
+  font-size: 0.5em;
+  white-space: pre-line;
+  bottom: 200px;
+  left: 160px;
+  word-wrap: break-word;
+  
+}
 .infos{
   margin: 1vw;
   padding: 1vw;
