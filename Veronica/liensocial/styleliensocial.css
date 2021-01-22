@@ -132,17 +132,22 @@ header {
     left: 20%;
 }
 
-
-footer h4 {
-    font-size: 10px;
-    text-align: center;
-    padding: 10px;
-}
-
 #vert { 
     color: #3696A1;
     font-size: 18px;
     position: absolute;
     line-height:normal;
     margin-top:2px;
+}
+
+.volver {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+footer h4 {
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
 }

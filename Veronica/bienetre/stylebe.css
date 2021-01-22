@@ -50,7 +50,6 @@ header {
 
 /*section 2 */
 
-
 .content {
    display: flex;
    flex-wrap: wrap;
@@ -58,7 +57,6 @@ header {
    justify-content: space-around;
 
 }
-
 
 .post {
     box-shadow: 0 1px 6px 1px rgba(17, 139, 109, 0.336);
@@ -143,5 +141,10 @@ footer h4 {
     position: absolute;
     line-height:normal;
     margin-top:2px;
-    
+}
+
+.volver {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
 }

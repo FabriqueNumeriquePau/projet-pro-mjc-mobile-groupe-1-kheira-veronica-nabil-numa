@@ -133,13 +133,6 @@ header {
     left: 20%;
 }
 
-
-footer h4 {
-    font-size: 10px;
-    text-align: center;
-    padding: 10px;
-}
-
 #marron { 
     color: #672C2A;
     font-size: 18px;
@@ -147,4 +140,16 @@ footer h4 {
     line-height:normal;
     margin-top:2px;
     
+}
+
+.volver {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+footer h4 {
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
 }

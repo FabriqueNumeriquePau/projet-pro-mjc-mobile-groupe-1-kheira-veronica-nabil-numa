@@ -79,6 +79,13 @@ hr {
     margin-right: 25%;
 }
 
+.volver {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+
 /*footer */
 
 footer h4 {
