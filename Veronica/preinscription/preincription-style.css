@@ -1,0 +1,94 @@
+
+body {
+    font-family: 'Poppins', 'Lato', sans-serif;
+    background-color: #D6859E;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+    background-color: #D6859E;
+  }
+  h1 {
+      text-align: center;
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 70%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;  
+    border: 1px solid red;
+    background: #D6859E;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: white;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid black;
+    margin-bottom: 25px;
+    width: 30%;
+  }
+  
+
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: black;
+    color: white;
+    padding: 14px;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    border-radius: 30px;
+    display: block;
+    margin: auto;
+}
+  
+  .registerbtn:hover {
+    opacity: 1;
+}
+/* croi */
+
+.close {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 20px;
+  height: 20px;
+  opacity: 0.80;
+}
+
+.close:hover {
+  opacity: 1;
+}
+
+.close:before,
+.close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: black;
+}
+
+.close:before {
+  transform: rotate(45deg);
+}
+
+.close:after {
+  transform: rotate(-45deg);
+}
