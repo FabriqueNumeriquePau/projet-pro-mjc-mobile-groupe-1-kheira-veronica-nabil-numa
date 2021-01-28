@@ -4,12 +4,12 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  
 }
 body {
-  padding: 0;
-  margin: 0;
-  font-size: 5vmin;
+  font-size: 4vmin;
   font-family: 'Poppins', 'Lato', sans-serif;
+  overflow-x: hidden;
 }
 .parent {
   display: flex;
@@ -20,9 +20,7 @@ body {
   height: 90vh;
   opacity: 0.95;
 }
-.dead_space {
-  height: 12vh;
-}
+
 .logo {
   display: flex;
   justify-content: center;
@@ -30,6 +28,8 @@ body {
   position: relative;
   top: 150px;
 }
+
+/* flecha  */
 .arrow {
   position: absolute;
   top: 75vh;
@@ -78,6 +78,8 @@ body {
 .testooo:hover {
   cursor: crosshair;
 }
+
+/* menu fixe */
 .menu_fixe {
   display: flex;
   position: fixed;
@@ -97,29 +99,56 @@ body {
   text-decoration: none;
   border: 1px solid white;
   outline: none;
-  font-family: 'Roboto Condensed', 'Poppins', sans-serif;
+  cursor: pointer;
 }
 .menu_fixe div h2 {
   margin: 0;
   font-size: 3vmin;
-  text-shadow: 1px 2px black;
+  text-shadow: 1px 1px black;
+  
 }
-.menu_fixe div h1 {
-  margin: 0;
-  font-size: 5vmin;
-}
+
 .menu1 {
   width: 25%;
+  background-color:#D6859E; 
 }
+
+.menu1:hover {
+  background-color: white;
+  color: #D6859E;
+
+}
+
 .menu2 {
   width: 25%;
+  background-color:#D6859E; 
+}
+
+.menu2:hover {
+  background-color: white;
+  color: #D6859E;
 }
 .menu3 {
   width: 25%;
+  background-color:#D6859E; 
 }
+
+.menu3:hover {
+  background-color: white;
+  color: #D6859E;
+}
+
 .menu4 {
   width: 25%;
+  background-color:#D6859E; 
 }
+
+.menu4:hover {
+  background-color: white;
+  color: #D6859E;
+}
+
+/* menu lateral droit*/
 nav {
   display: flex;
   justify-content: flex-end;
@@ -195,7 +224,7 @@ nav ul li:hover {
 }
 .page_evenements .case1  .texte {
   position: relative;
-  font-size: 0.5em;
+  font-size: 0.6em;
   white-space: pre-line;
   bottom: 200px;
   left: 160px;
@@ -285,16 +314,19 @@ nav ul li:hover {
 }
 .page_evenements .barre_menu .menu_deroulant .container_menu {
   position: relative;
+  z-index: 10;
 }
 .page_evenements .barre_menu .menu_deroulant li {
+  position: relative;
   padding: 1vmin;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.8rem;
+  font-size: 0.9rem;
   background-color: #DF9B19;
   width: 100%;
   height: 100%;
+  
 }
 .page_evenements .barre_menu .menu_deroulant li a {
   color: black;
@@ -307,7 +339,7 @@ nav ul li:hover {
   color: white;
 }
 .page_evenements .barre_menu .recherche {
-  width: 60vw;
+  width: 50vw;
   height: 4.5vh;
   background-color: #DF9B19;
   border-radius: 8px ;
@@ -319,6 +351,8 @@ nav ul li:hover {
   justify-content: center;
   align-items: center;
   display: flex;
+  position: relative;
+  top: 9px;
   
 }
 .page_evenements .header_article {
@@ -328,19 +362,123 @@ nav ul li:hover {
   margin-top: 1.5vw;
   height: 10vh;
   width: 85%;
-  background-color: blue;
+  
 }
-.page_evenements .header_article .date_article {
-  width: 22vw;
-  height: 10vh;
+.page_evenements .header_article .date_article1 {
+  position: relative;
+  width: 25vw;
+  height: 5vh;
   background-color: #DF9B19;
-  border-radius: 12px;
+  border-radius: 6px;
+  font-size: 0.8em;
+  text-align: center;
+  white-space: pre-line;
+
 }
-.page_evenements .header_article .photo_article {
+.page_evenements .header_article .ecrire_article1  {
+  position: relative;
+  width: 12vw;
+  height: 3.5vh;
+  background-color: #DF9B19;
+  border-radius: 6px;
+  top: 45px;
+  right: 84px;
+}
+.page_evenements .header_article .favoris_article1  {
+  position: relative;
+  width: 12vw;
+  height: 3.5vh;
+  background-color: #DF9B19;
+  border-radius: 6px;
+  top: 45px;
+  right: 79px;
+}
+#etoile {
+  position: relative;
+  color: rgba(248, 210, 15, 1);
+  margin-left: 7px;
+}
+#editer {
+  position: relative;
+  color: rgba(0, 90, 135, 1);
+  margin-left: 8px;
+}
+.page_evenements .header_article .ecrire_article2  {
+  position: relative;
+  width: 21vw;
+  height: 3.5vh;
+  background-color: #DF9B19;
+  border-radius: 6px;
+  top: 45px;
+  right: 80px;
+}
+.page_evenements .header_article .favoris_article2  {
+  position: relative;
+  width: 21vw;
+  height: 3.5vh;
+  background-color: #DF9B19;
+  border-radius: 6px;
+  top: 45px;
+  right: 75px;
+}
+.page_evenements .header_article .ecrire_article3  {
+  position: relative;
+  width: 16vw;
+  height: 3.5vh;
+  background-color: #DF9B19;
+  border-radius: 6px;
+  top: 45px;
+  right: 80px;
+
+}
+.page_evenements .header_article .favoris_article3  {
+  position: relative;
+  width: 16vw;
+  height: 3.5vh;
+  background-color: #DF9B19;
+  border-radius: 6px;
+  top: 45px;
+  right: 76px;
+}
+  .page_evenements .header_article .photo_article1{
+  position: relative;
+  width: 50%;
+  background-image: url("/photo/job.png");
+  border-radius: 10px;
+  
+}
+.page_evenements .header_article .date_article2 {
+  width: 43vw;
+  position: relative;
+  height: 5vh;
+  background-color: #DF9B19;
+  border-radius: 6px;
+  font-size: 0.8em;
+  text-align: center;
+  white-space: pre-line;
+ 
+}
+.page_evenements .header_article .date_article3 {
+  width: 33vw;
+  position: relative;
+  height: 5vh;
+  background-color: #DF9B19;
+  border-radius: 6px;
+  font-size: 0.8em;
+  text-align: center;
+  white-space: pre-line;
+  
+}
+  .page_evenements .header_article .photo_article3{
   width: 60vw;
-  background-color: orangered;
-  border-radius: 12px;
-}
+ 
+  border-radius: 10px;
+  }
+  .page_evenements .header_article .photo_article2 {
+  width: 80vw;
+  background-image: url("/photo/photo1.png");
+  border-radius: 10px;
+  }
 .page_evenements .article_mjc {
   display: flex;
   flex-direction: column;
