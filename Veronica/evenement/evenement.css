@@ -159,16 +159,22 @@ nav ul {
   margin: 10px 5px;
 }
 nav ul li {
+  position: relative;
+  left: 12px;
   flex-direction: column;
   background: white;
+  margin: 5px;
   padding: 10px;
   border: 1px solid black;
   border-bottom-left-radius: 50%;
   border-top-left-radius: 50%;
   list-style: none;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
-
+nav ul li:hover {
+  transform: scale(1.2);
+}
 .noire {
   background-color: black;
 }
@@ -179,3 +185,26 @@ nav ul li {
   color: #D6859E;
 }
 
+/* fin accueil */
+
+/* evenements du mois */
+
+.container-all {
+  width: 100%;
+  max-width: 600px;
+  height: 250px;
+  margin: auto;
+  padding: 60px;
+  background:#7DB7A3;
+
+}
+.titulo {
+  font-size: 25px;
+
+}
+
+.container-all img {
+  width: 200px;
+  height: 250px;
+
+}
