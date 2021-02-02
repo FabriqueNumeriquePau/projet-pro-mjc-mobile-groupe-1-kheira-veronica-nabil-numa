@@ -1,0 +1,521 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 4vmin;
+  font-family: 'Poppins', 'Lato', sans-serif;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://images.larepubliquedespyrenees.fr/2019/07/16/5d2e099aa43f5ece3bf6d51f/golden/la-mjc-des-fleurs-a-investi.jpg');
+  background-size: cover;
+  background-position: top center;
+  height: 90vh;
+  opacity: 0.95;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  position: relative;
+  top: 150px;
+}
+
+/* flecha  */
+.arrow {
+  position: absolute;
+  top: 75vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 150;
+  width: 20vw;
+  height: 16vh;
+}
+
+.arrow span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+  margin: auto;
+}
+
+.arrow span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+
+.arrow span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
+}
+
+.testooo {
+  width: 100%;
+}
+
+.wrap {
+  width: 70%;
+}
+
+.testooo:hover {
+  cursor: crosshair;
+}
+
+/* menu fixe */
+.menu_fixe {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: #D6859E;
+  color: white;
+  overflow: hidden;
+  z-index: 101;
+}
+
+.menu_fixe div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 10vh;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid white;
+  outline: none;
+  cursor: pointer;
+}
+
+.menu_fixe div h2 {
+  margin: 0;
+  font-size: 3vmin;
+  text-shadow: 1px 1px black;
+
+}
+
+.menu1 {
+  width: 25%;
+  background-color: #D6859E;
+}
+
+.menu1:hover {
+  background-color: white;
+  color: #D6859E;
+
+}
+
+.menu2 {
+  width: 25%;
+  background-color: #D6859E;
+}
+
+.menu2:hover {
+  background-color: white;
+  color: #D6859E;
+}
+
+.menu3 {
+  width: 25%;
+  background-color: #D6859E;
+}
+
+.menu3:hover {
+  background-color: white;
+  color: #D6859E;
+}
+
+.menu4 {
+  width: 25%;
+  background-color: #D6859E;
+}
+
+.menu4:hover {
+  background-color: white;
+  color: #D6859E;
+}
+
+/* menu lateral droit*/
+nav {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  right: 0;
+  top: 50%;
+  z-index: 100;
+}
+
+nav ul {
+  margin: 10px 5px;
+}
+
+nav ul li {
+  position: relative;
+  left: 10px;
+  flex-direction: column;
+  background: white;
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid black;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  list-style: none;
+  cursor: pointer;
+}
+
+
+#phone{
+  color: black;
+}
+
+.noire {
+  background-color: black;
+}
+
+#btnmail {
+  color: white;
+}
+
+#rose {
+  color: #D6859E;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D6859E;
+  text-decoration: none;
+  cursor: pointer;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Poppins', 'Lato', sans-serif;
+  width: 100%;
+
+}
+
+/* accueil */
+
+.parent {
+	display: flex;
+	flex-direction: column;
+	background-image: url('https://images.larepubliquedespyrenees.fr/2019/07/16/5d2e099aa43f5ece3bf6d51f/golden/la-mjc-des-fleurs-a-investi.jpg');
+	background-size: cover;
+	background-position: top center;
+	height: 90vh;
+	opacity: 0.95;
+  }
+  
+  .logo {
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	position: relative;
+	top: 150px;
+  }
+  
+  /* flecha  */
+  .arrow {
+	position: absolute;
+	top: 75vh;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 150;
+	width: 20vw;
+	height: 16vh;
+  }
+  .arrow span {
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-bottom: 5px solid white;
+	border-right: 5px solid white;
+	transform: rotate(45deg);
+	margin: -10px;
+	animation: animate 2s infinite;
+	margin: auto;
+  }
+  .arrow span:nth-child(2) {
+	animation-delay: -0.2s;
+  }
+  .arrow span:nth-child(3) {
+	animation-delay: -0.4s;
+  }
+  @keyframes animate {
+	0% {
+	  opacity: 0;
+	  transform: rotate(45deg) translate(-20px, -20px);
+	}
+	50% {
+	  opacity: 1;
+	}
+	100% {
+	  opacity: 0;
+	  transform: rotate(45deg) translate(20px, 20px);
+	}
+  }
+  .testooo {
+	width: 100%;
+  }
+  .wrap {
+	width: 70%;
+  }
+  .testooo:hover {
+	cursor: crosshair;
+  }
+  
+  /* menu fixe */
+  .menu_fixe {
+	display: flex;
+	position: fixed;
+	width: 100%;
+	background-color: #D6859E;
+	color: white;
+	overflow: hidden;
+	z-index: 101;
+  }
+  .menu_fixe div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 10vh;
+	color: #f2f2f2;
+	text-align: center;
+	text-decoration: none;
+	border: 1px solid white;
+	outline: none;
+	cursor: pointer;
+  }
+  .menu_fixe div h2 {
+	margin: 0;
+	font-size: 3vmin;
+	text-shadow: 1px 1px black;
+	
+  }
+  
+  .menu1 {
+	width: 25%;
+	background-color:#D6859E; 
+  }
+  
+  .menu1:hover {
+	background-color: white;
+	color: #D6859E;
+  
+  }
+  
+  .menu2 {
+	width: 25%;
+	background-color:#D6859E; 
+  }
+  
+  .menu2:hover {
+	background-color: white;
+	color: #D6859E;
+  }
+  .menu3 {
+	width: 25%;
+	background-color:#D6859E; 
+  }
+  
+  .menu3:hover {
+	background-color: white;
+	color: #D6859E;
+  }
+  
+  .menu4 {
+	width: 25%;
+	background-color:#D6859E; 
+  }
+  
+  .menu4:hover {
+	background-color: white;
+	color: #D6859E;
+  }
+  
+  /* menu lateral droit*/
+  nav {
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+	right: 0;
+	top: 50%;
+	z-index: 100;
+  }
+  nav ul {
+	margin: 10px 5px;
+  }
+  nav ul li {
+	position: relative;
+	left: 12px;
+	flex-direction: column;
+	background: white;
+	margin: 5px;
+	padding: 10px;
+	border: 1px solid black;
+	border-bottom-left-radius: 50%;
+	border-top-left-radius: 50%;
+	list-style: none;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+  }
+  nav ul li:hover {
+	transform: scale(1.2);
+  }
+  .noire {
+	background-color: black;
+  }
+  #btnmail {
+	color: white;
+  }
+  #rose {
+	color: #D6859E;
+  }
+  
+  #blanc {
+	color: white;
+  }
+  
+  #blanc:hover{
+	color: #D6859E;
+  }
+/* fin accueil   */
+
+/* agenda */
+
+.app {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+    padding-top: 50px;
+    padding-bottom:150px ;
+  
+    
+
+}
+
+.calendario, .CalendarioHeader, .header{
+	--sizeColumn:5rem;
+	width: calc(var(--sizeColumn)*7);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between
+}	
+/* BORRAR AL FINAL el margen */
+.calendario{
+	margin: auto;
+	border-radius: 0.3rem;
+	background-color: #7DB7A3;
+	overflow: hidden;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.CalendarioHeader{
+	height: 4rem;
+	padding: 10px;
+	align-items: center;
+	background-color: #D6859E;
+	font-weight: bold;
+	color: #fcfcfc;
+}
+.CalendarioHeader > button{
+	width: 25%;
+	color: #060f0f;
+}
+aside{
+	text-align: center;
+	width: 50%;	
+}
+aside > h4::before{
+	content:"- "
+}
+aside > h4{
+	color: #f3f3f3;
+	font-size: 0.9rem;
+}
+aside > h4::after{
+	content:" -"
+}
+.header > h3::after, .header > h3:active{
+	background-color: transparent;
+}
+h3{
+	position: relative;
+	margin: 2px;
+	width: calc((100%/7) - 4px);
+	height: calc(var(--sizeColumn) - 4px);
+	display: flex;
+	align-items: center;		
+	justify-content: center;
+	cursor: pointer;
+	background-color: transparent;
+}
+h3:active{
+	/*Colocar colores de variables*/
+	background-color: #ededed;
+}
+h3::after{
+	--size: 4px;
+	
+	content: "";
+	position: absolute;
+	bottom: calc(var(--size)*2);
+	width: 30%;
+	height: var(--size);
+	/*Colocar colores de variables*/
+	background-color: #ededed96;
+	border-radius: 5em;
+}
+
+
+@media only screen and (max-width: 800px){
+	#app{
+		padding-left: 2.5%;
+		width: 95%;
+	}
+	.calendario{
+		--sizeColumn: 3rem;
+	}
+}
+#click {
+  position: relative;
+  margin: 0 40%;
+  bottom: 110px;
+  margin-bottom: 0 20%;
+  font-size: 4em;
+}

@@ -213,24 +213,8 @@ nav ul li:hover {
   max-width: 85%;
   font-size: 4vmin;
 }
-.page_evenements .case1 {
-  margin-top: 1.5vw;
-  min-height: 200px;
-  width: 40%;
-  height: 100px;
-  min-width: 330px;
-  background-color: #7DB7A3;
 
-}
-.page_evenements .case1  .texte {
-  position: relative;
-  font-size: 0.6em;
-  white-space: pre-line;
-  bottom: 200px;
-  left: 160px;
-  word-wrap: break-word;
-  
-}
+
 .infos{
   margin: 1vw;
   padding: 1vw;
@@ -239,12 +223,7 @@ nav ul li:hover {
   margin-top: 2vw;
 }
 
-.page_evenements .slider_buttons {
-  margin-top: 1.5vw;
-  height: 4vh;
-  background-color: red;
-  width: 25%;
-}
+
 .page_evenements .filler {
   width: 70%;
   font-size: 4vmin;
