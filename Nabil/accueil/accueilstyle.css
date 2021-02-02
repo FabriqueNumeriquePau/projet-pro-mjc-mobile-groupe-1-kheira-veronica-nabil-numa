@@ -176,7 +176,7 @@ nav ul {
 
 nav ul li {
   position: relative;
-  left: 12px;
+  left: 10px;
   flex-direction: column;
   background: white;
   margin: 5px;
@@ -186,11 +186,11 @@ nav ul li {
   border-top-left-radius: 50%;
   list-style: none;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
 }
 
-nav ul li:hover {
-  transform: scale(1.2);
+
+#phone{
+  color: black;
 }
 
 .noire {
@@ -206,7 +206,7 @@ nav ul li:hover {
 }
 
 a {
-  color: #f2f2f2;
+  color: white;
   text-decoration: none;
 }
 
