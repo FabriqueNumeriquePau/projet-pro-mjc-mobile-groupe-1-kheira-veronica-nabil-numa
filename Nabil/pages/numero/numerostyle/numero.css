@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.0.13/css/all.css');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 5%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #D6859E;
+}
+
+.box1 {
+
+    margin: auto;
+    width: 18.75rem;
+    height: 2.75rem;
+    background: white;
+    border-radius: 1.25rem;
+}
+
+.numero {
+    display: flex;
+    justify-content: center;
+    color: #D6859E;
+}
+
+.fas {
+    position: relative;
+    right: 4rem;
+    transform: rotate(90deg);
+    color: #D6859E;
+    opacity: 0.85;
+}
+
+.box2 {
+
+    margin: auto;
+    width: 18.75rem;
+    height: 2.75rem;
+    background: black;
+    border-radius: 1.25rem;
+    margin-top: 3vh;
+}
+
+.annuler {
+    letter-spacing: 0.1875rem;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+
+a{
+    color:black;
+}

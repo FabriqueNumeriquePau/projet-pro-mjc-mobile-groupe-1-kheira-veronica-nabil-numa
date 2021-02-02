@@ -1,0 +1,603 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 4vmin;
+  font-family: 'Poppins', 'Lato', sans-serif;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://images.larepubliquedespyrenees.fr/2019/07/16/5d2e099aa43f5ece3bf6d51f/golden/la-mjc-des-fleurs-a-investi.jpg');
+  background-size: cover;
+  background-position: top center;
+  height: 90vh;
+  opacity: 0.95;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  position: relative;
+  top: 150px;
+}
+
+/* flecha  */
+.arrow {
+  position: absolute;
+  top: 75vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 150;
+  width: 20vw;
+  height: 16vh;
+}
+
+.arrow span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+  margin: auto;
+}
+
+.arrow span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+
+.arrow span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
+}
+
+.testooo {
+  padding-top: 15px;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  width: 20%;
+  height: 20%;
+}
+
+.wrap {
+  width: 70%;
+}
+
+.testooo:hover {
+  cursor: crosshair;
+}
+
+/* menu fixe */
+.menu_fixe {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: #D6859E;
+  color: white;
+  overflow: hidden;
+  z-index: 101;
+}
+
+.menu_fixe div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 10vh;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid white;
+  outline: none;
+  cursor: pointer;
+}
+
+.menu_fixe div h2 {
+  margin: 0;
+  font-size: 3vmin;
+  text-shadow: 1px 1px black;
+
+}
+
+.menu1 {
+  width: 25%;
+  background-color: white;
+}
+
+#un{
+ color: #D6859E;
+}
+.menu1:hover {
+  background-color: white;
+  color: #D6859E;
+
+}
+
+.menu2 {
+  width: 25%;
+  background-color: #D6859E;
+}
+
+.menu2:hover {
+  background-color: white;
+  color: #D6859E;
+}
+
+.menu3 {
+  width: 25%;
+  background-color: #D6859E;
+}
+
+.menu3:hover {
+  background-color: white;
+  color: #D6859E;
+}
+
+.menu4 {
+  width: 25%;
+  background-color: #D6859E;
+}
+
+.menu4:hover {
+  background-color: white;
+  color: #D6859E;
+}
+
+/* menu lateral droit*/
+nav {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  right: 0;
+  top: 50%;
+  z-index: 100;
+}
+
+nav ul {
+  margin: 10px 5px;
+}
+
+nav ul li {
+  position: relative;
+  left: 10px;
+  flex-direction: column;
+  background: white;
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid black;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  list-style: none;
+  cursor: pointer;
+}
+
+.noire {
+  background-color: black;
+}
+
+#btnmail {
+  color: white;
+}
+
+#rose {
+  color: #D6859E;
+}
+
+.page_evenements {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page_evenements .titre_evenements {
+  padding-top: 20px;
+  margin: 0;
+  font-family: 'Lato', 'Poppins', sans-serif;
+  max-width: 85%;
+  font-size: 6.8vmin;
+}
+
+.page_evenements .traits {
+  margin-top: 1.5vw;
+  padding: 0;
+  width: 75vw;
+  background-color: lightcoral;
+  height: 0.2rem;
+  border-radius: 50%;
+}
+
+.page_evenements .titre_articles {
+  margin-top: 1.5vw;
+  font-family: 'Poppins', 'Lato', sans-serif;
+  max-width: 85%;
+  font-size: 4vmin;
+}
+
+.page_evenements .case1 {
+  display: flex;
+  margin-top: 1.5vw;
+  min-height: 200px;
+  width: 40%;
+  height: 100px;
+  min-width: 330px;
+  background-color: #7DB7A3;
+
+}
+
+.page_evenements .case1 .texte {
+  position: relative;
+  font-size: 0.6em;
+  white-space: pre-line;
+  word-wrap: break-word;
+
+}
+
+.infos {
+  margin: 1vw;
+  padding: 1vw;
+  width: 45%;
+  height: 23vh;
+  margin-top: 2vw;
+}
+
+
+.page_evenements .filler {
+  width: 70%;
+  font-size: 4vmin;
+}
+
+.page_evenements .barre_menu {
+  margin-top: 2.5vw;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: 'Lato', 'Poppins', sans-serif;
+}
+
+.page_evenements .barre_menu .menu_deroulant {
+  border-radius: 12px;
+  font-size: 1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*  .dropdown {
+                display: flex;
+                height: 100%;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+            }*/
+}
+
+.page_evenements .barre_menu .menu_deroulant button {
+  display: block;
+  width: 100%;
+  padding: 1vh 3.5vw 1vh;
+  margin: 10px 0;
+  font-size: 2em;
+  background: none;
+  border: none;
+  color: rgba(0, 0, 0, 0.67);
+  background-color: #DF9B19;
+  border-radius: 7px;
+  font-family: 'Lato', sans-serif;
+
+}
+
+.page_evenements .barre_menu .menu_deroulant button:hover {
+  color: grey;
+}
+
+.page_evenements .barre_menu .menu_deroulant button:focus+ul {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.page_evenements .barre_menu .menu_deroulant ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+  position: absolute;
+  background-color: limegreen;
+  border-radius: 10px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 1.5s ease;
+  transform: translateY(-1vmin);
+  width: 100%;
+  border: 3px solid black;
+}
+
+.page_evenements .barre_menu .menu_deroulant button:focus {
+  background-color: orangered;
+  color: white;
+}
+
+.page_evenements .barre_menu .menu_deroulant .container_menu {
+  position: relative;
+  z-index: 10;
+}
+
+.page_evenements .barre_menu .menu_deroulant li {
+  position: relative;
+  padding: 1vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  background-color: #DF9B19;
+  width: 100%;
+  height: 100%;
+
+}
+
+.page_evenements .barre_menu .menu_deroulant li a {
+  color: black;
+  text-decoration: none;
+}
+
+.page_evenements .barre_menu .menu_deroulant li:hover {
+  background-color: orangered;
+}
+
+.page_evenements .barre_menu .menu_deroulant li:hover a {
+  color: white;
+}
+
+.page_evenements .barre_menu .recherche {
+  width: 50vw;
+  height: 4.5vh;
+  background-color: #DF9B19;
+  border-radius: 8px;
+  color: rgba(0, 0, 0, 0.67);
+  font-family: 'Lato', sans-serif;
+  font-size: 0.8em;
+  font-style: italic;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  top: 9px;
+
+}
+
+.page_evenements .header_article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 1.5vw;
+  height: 10vh;
+  width: 85%;
+
+}
+
+.page_evenements .header_article .date_article1 {
+  position: relative;
+  width: 25vw;
+  height: 5vh;
+  background-color: #DF9B19;
+  border-radius: 6px;
+  font-size: 0.8em;
+  text-align: center;
+  white-space: pre-line;
+
+}
+
+.page_evenements .header_article .ecrire_article1 {
+  position: relative;
+  width: 12vw;
+  height: 3.5vh;
+  background-color: #DF9B19;
+  border-radius: 6px;
+  top: 45px;
+  right: 84px;
+}
+
+.page_evenements .header_article .favoris_article1 {
+  position: relative;
+  width: 12vw;
+  height: 3.5vh;
+  background-color: #DF9B19;
+  border-radius: 6px;
+  top: 45px;
+  right: 79px;
+}
+
+#etoile {
+  position: relative;
+  color: rgba(248, 210, 15, 1);
+  margin-left: 7px;
+}
+
+#editer {
+  position: relative;
+  color: rgba(0, 90, 135, 1);
+  margin-left: 8px;
+}
+
+.page_evenements .header_article .ecrire_article2 {
+  position: relative;
+  width: 21vw;
+  height: 3.5vh;
+  background-color: #DF9B19;
+  border-radius: 6px;
+  top: 45px;
+  right: 80px;
+}
+
+.page_evenements .header_article .favoris_article2 {
+  position: relative;
+  width: 21vw;
+  height: 3.5vh;
+  background-color: #DF9B19;
+  border-radius: 6px;
+  top: 45px;
+  right: 75px;
+}
+
+.page_evenements .header_article .ecrire_article3 {
+  position: relative;
+  width: 16vw;
+  height: 3.5vh;
+  background-color: #DF9B19;
+  border-radius: 6px;
+  top: 45px;
+  right: 80px;
+
+}
+
+.page_evenements .header_article .favoris_article3 {
+  position: relative;
+  width: 16vw;
+  height: 3.5vh;
+  background-color: #DF9B19;
+  border-radius: 6px;
+  top: 45px;
+  right: 76px;
+}
+
+.page_evenements .header_article .photo_article1 {
+  position: relative;
+  width: 50%;
+  border-radius: 10px;
+}
+
+
+.page_evenements .header_article .date_article2 {
+  width: 43vw;
+  position: relative;
+  height: 5vh;
+  background-color: #DF9B19;
+  border-radius: 6px;
+  font-size: 0.8em;
+  text-align: center;
+  white-space: pre-line;
+
+}
+
+.page_evenements .header_article .date_article3 {
+  width: 33vw;
+  position: relative;
+  height: 5vh;
+  background-color: #DF9B19;
+  border-radius: 6px;
+  font-size: 0.8em;
+  text-align: center;
+  white-space: pre-line;
+
+}
+
+.page_evenements .header_article .photo_article3 {
+  width: 60vw;
+
+  border-radius: 10px;
+}
+
+.page_evenements .header_article .photo_article2 {
+  width: 80vw;
+  background-image: url("/photo/photo1.png");
+  border-radius: 10px;
+}
+
+.page_evenements .article_mjc {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5vw;
+  width: 85%;
+  height: 20vh;
+  max-height: 15vmax;
+
+}
+
+.page_evenements .article_mjc .txt_article {
+
+  width: 100%;
+  height: 90%;
+  font-size: 1.5vmax;
+  font-family: 'Lato', sans-serif;
+  white-space: pre-line;
+}
+
+.page_evenements .article_mjc .btn_article {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 1.7vmax;
+  color: blue;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+}
+
+.page_evenements .btn_plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5vw;
+  text-align: center;
+  background-color: #D6859E;
+  width: 40vw;
+  height: 3vh;
+  font-size: 5.1vmin;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+#phone{
+  color: black;
+}
+
+.noire {
+  background-color: black;
+}
+
+#btnmail {
+  color: white;
+}
+
+#rose {
+  color: #D6859E;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D6859E;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
